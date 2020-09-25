@@ -1,0 +1,6 @@
+CREATE DATABASE projeto1;
+USE projeto1;
+CREATE TABLE arquivos(file_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, category  VARCHAR(100) NOT NULL, user_id INT, data VARCHAR(500), date TIMESTAMP);
+INSERT INTO arquivos (category, user_id, data, date) VALUES ("Category example1", 0, "Text here 0", FROM_UNIXTIME(1601036052));
+INSERT INTO arquivos (category, user_id, data, date) VALUES ("Category example1", 1, "Text here 00001", FROM_UNIXTIME(1601035052));
+INSERT INTO arquivos (category, user_id, data, date) VALUES ("Category example2", 2, "Text here 07", FROM_UNIXTIME(1601036049));
